@@ -46,12 +46,11 @@ function contactFunction(){
     let title = document.querySelector('#contact')
     let about = document.querySelector('#about')
     let pTag = document.querySelector ('p');
-    let hTag = document.createElement ("h2");
     let secondHtag = document.createElement ("h2");
     title.appendChild(secondHtag);
     secondHtag.textContent = ("Contact");
 
-    title.insertBefore(hTag,pTag);
+
     title.insertBefore(secondHtag,pTag);
     main.insertBefore(about,title);
 }
